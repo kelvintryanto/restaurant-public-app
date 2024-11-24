@@ -21,7 +21,7 @@ Buatlah web layouting menggunakan HTML dan CSS (boleh menggunakan CSS framework)
   - [✔] Halaman Detail
     - Buatlah Halaman yang berisi detail dari Entitas Utama.
 
-- [ ] **CMS site**
+- [✔] **CMS site**
   - [✔] Halaman Login
     Pada halaman ini buatlah sebuah form untuk menampung input email dan password user yang digunakan untuk masuk ke CMS
   - [✔] Halaman list entitas utama . Tampilkan data entity dalam bentuk Tabel .
