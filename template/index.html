@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>East Mountain Avenue</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white">
+    <header class="relative h-screen w-full">
+      <!-- Carousel -->
+      <div class="absolute inset-0 z-0 overflow-hidden">
+        <div class="flex transition-transform duration-700 ease-in-out h-full w-full" id="carousel">
+          <!-- Slide 1 -->
+          <div class="h-full w-full flex-none bg-cover bg-center relative opacity-95" style="background-image: url('./image/Forest_Fog_1600x.webp')">
+            <!-- Brown Overlay -->
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+          </div>
+          <!-- Slide 1 -->
+          <div class="h-full w-full flex-none bg-cover bg-center relative opacity-95" style="background-image: url('./image/chef-preparing-food-in-the-kitchen-at-the-restaurant-professional-chef-cooking-gourmet-chef-cooking-in-a-commercial-kitchen-ai-generated-free-photo.jpg')">
+            <!-- Brown Overlay -->
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="h-full w-full flex-none bg-cover bg-center relative opacity-95" style="background-image: url('./image/people.jpeg')">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="h-full w-full flex-none bg-cover bg-center relative opacity-95" style="background-image: url('./image/56407516_2300213963332320_1227955068599271424_n.jpg')">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Overlay content (Navbar and Logo) -->
+      <div class="relative z-10">
+        <div class="flex justify-center align-top">
+          <!-- Logo -->
+          <!-- Navbar -->
+          <nav class="top-0 left-0 w-full p-3 flex justify-between items-start bg-transparent">
+            <div class="flex gap-3 items-center">
+              <a href="#"><img src="./image/logo.png" width=100px" height="100px" alt="Logo" /></a>
+              <div class="flex flex-col gap-2">
+                <a href="#" class="text-white self-center text-4xl">East Mountain Avenue</a>
+                <i class="text-white">Miraculous Cuisines in the Beauty of Mountain Forest</i>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <div class="flex gap-3">
+                <input type="text" name="search" placeholder="search" class="rounded-md p-1 px-2 border" autocomplete="off" />
+                <button class="rounded-md p-1 px-2 border hover:bg-yellow-800 text-white">Search</button>
+              </div>
+              <div class="flex gap-5"><a href="/login" class="text-white border hover:bg-yellow-800 hover:text-white p-1 px-2 rounded-md">Login</a></div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Overlay Text -->
+      <div class="relative inset-0 flex justify-center items-center text-center text-white mt-[180px]">
+        <div>
+          <h1 class="text-5xl font-bold">Welcome to Our Restaurant</h1>
+          <p class="text-xl mt-2">"An unforgettable dining experience amidst the serene beauty of mountain forests."</p>
+          <button class="mt-6 px-6 py-2 bg-green-900 text-white text-lg font-semibold rounded-md hover:bg-green-700 transition-all duration-300" onclick="document.querySelector('#main-course').scrollIntoView({ behavior: 'smooth' })">Main Course</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- section Main Course -->
+    <section id="main-course" class="py-4 bg-[#7c8a77] px-20 w-full h-full text-white">
+      <div class="flex justify-center mb-6 text-4xl text-white">Main Course</div>
+
+      <!-- button filter -->
+      <div class="flex justify-center gap-4 pt-3 pb-2 items-center">
+        <p>Category:</p>
+        <button class="py-1 px-2 text-white border-2 rounded-md bg-green-700 border-gray-900 hover:border-gray-600 hover:bg-green-800">Indonesian</button>
+        <button class="py-1 px-2 text-white border-2 rounded-md bg-green-700 border-gray-900 hover:border-gray-600 hover:bg-green-800">Asian</button>
+        <button class="py-1 px-2 text-white border-2 rounded-md bg-green-700 border-gray-900 hover:border-gray-600 hover:bg-green-800">Western</button>
+        <button class="py-1 px-2 text-white border-2 rounded-md bg-green-700 border-gray-900 hover:border-gray-600 hover:bg-green-800">Desserts</button>
+      </div>
+
+      <!-- card -->
+      <div class="grid gap-5 grid-cols-4 grid-rows-2 p-3">
+        <div class="grid-row-1 hover:shadow-xl hover:shadow-blue-950 bg-green-800 border-2 border-gray-900 rounded-xl overflow-hidden">
+          <div class="flex-col">
+            <div class="min-h-36 flex justify-center">
+              <img class="h-full" src="./cuisines/bakso.jpg" alt="" />
+            </div>
+            <div class="flex justify-between p-3">
+              <p>Bakso</p>
+              Rp 30.000
+            </div>
+            <div class="p-3 flex justify-between">
+              <p>description</p>
+              <button class="border border-white-900 hover:bg-yellow-800 rounded-md px-2 py-1 hover:bg-slate-400">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-row-1 hover:shadow-xl hover:shadow-blue-950 bg-green-800 border-2 border-gray-900 rounded-xl overflow-hidden">
+          <div class="flex-col">
+            <div class="min-h-36 flex justify-center">
+              <img src="./cuisines/bibimbap.jpg" class="h-auto w-auto" alt="" />
+            </div>
+            <div class="flex justify-between p-3">
+              <p>Bibimbap</p>
+              Rp 75.000
+            </div>
+            <div class="p-3 flex justify-between">
+              <p>description</p>
+              <button class="border border-white-900 hover:bg-yellow-800 rounded-md px-2 py-1">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-row-1 hover:shadow-xl hover:shadow-blue-950 bg-green-800 border-2 border-gray-900 rounded-xl overflow-hidden">
+          <div class="flex-col">
+            <div class="min-h-36 flex justify-center">
+              <img src="./cuisines/brownie.jpeg" alt="" />
+            </div>
+            <div class="flex justify-between p-3">
+              <p>Brownies</p>
+              Rp 50.000
+            </div>
+            <div class="p-3 flex justify-between">
+              <p>description</p>
+              <button class="border border-white-900 hover:bg-yellow-800 rounded-md px-2 py-1">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-row-1 hover:shadow-xl hover:shadow-blue-950 bg-green-800 border-2 border-gray-900 rounded-xl overflow-hidden">
+          <div class="flex-col">
+            <img src="./cuisines/burger.jpg" alt="" />
+            <div class="flex justify-between p-3">
+              <p>Burger</p>
+              Rp 40.000
+            </div>
+            <div class="p-3 flex justify-between">
+              <p>description</p>
+              <button class="border border-white-900 hover:bg-yellow-800 rounded-md px-2 py-1">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-row-1 hover:shadow-xl hover:shadow-blue-950 bg-green-800 border-2 border-gray-900 rounded-xl overflow-hidden">
+          <div class="flex-col">
+            <div class="min-h-36 flex justify-center">
+              <img class="h-full" src="./cuisines/bakso.jpg" alt="" />
+            </div>
+            <div class="flex justify-between p-3">
+              <p>Bakso</p>
+              Rp 30.000
+            </div>
+            <div class="p-3 flex justify-between">
+              <p>description</p>
+              <button class="border border-white-900 hover:bg-yellow-800 hover:bg-yellow-800 rounded-md px-2 py-1 hover:bg-slate-400">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-row-1 hover:shadow-xl hover:shadow-blue-950 bg-green-800 border-2 border-gray-900 rounded-xl overflow-hidden">
+          <div class="flex-col">
+            <div class="min-h-36 flex justify-center">
+              <img class="h-full" src="./cuisines/bakso.jpg" alt="" />
+            </div>
+            <div class="flex justify-between p-3">
+              <p>Bakso</p>
+              Rp 30.000
+            </div>
+            <div class="p-3 flex justify-between">
+              <p>description</p>
+              <button class="border border-white-900 hover:bg-yellow-800 hover:bg-yellow-800 rounded-md px-2 py-1 hover:bg-slate-400">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-row-1 hover:shadow-xl hover:shadow-blue-950 bg-green-800 border-2 border-gray-900 rounded-xl overflow-hidden">
+          <div class="flex-col">
+            <div class="min-h-36 flex justify-center">
+              <img class="h-full" src="./cuisines/bakso.jpg" alt="" />
+            </div>
+            <div class="flex justify-between p-3">
+              <p>Bakso</p>
+              Rp 30.000
+            </div>
+            <div class="p-3 flex justify-between">
+              <p>description</p>
+              <button class="border border-white-900 hover:bg-yellow-800 hover:bg-yellow-800 rounded-md px-2 py-1 hover:bg-slate-400">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-row-1 hover:shadow-xl hover:shadow-blue-950 bg-green-800 border-2 border-gray-900 rounded-xl overflow-hidden">
+          <div class="flex-col">
+            <div class="min-h-36 flex justify-center">
+              <img class="h-full" src="./cuisines/bakso.jpg" alt="" />
+            </div>
+            <div class="flex justify-between p-3">
+              <p>Bakso</p>
+              Rp 30.000
+            </div>
+            <div class="p-3 flex justify-between">
+              <p>description</p>
+              <button class="border border-white-900 hover:bg-yellow-800 hover:bg-yellow-800 rounded-md px-2 py-1 hover:bg-slate-400">Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Carousel Configuration
+      const carousel = document.getElementById("carousel");
+      const slides = carousel.children; // All slides
+      const totalSlides = slides.length;
+      let currentIndex = 0;
+
+      // Auto-slide every 5 seconds
+      setInterval(() => {
+        // Update index
+        currentIndex = (currentIndex + 1) % totalSlides;
+        // Move carousel
+        carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+      }, 5000); // 5000ms = 5 seconds
+    </script>
+  </body>
+</html>

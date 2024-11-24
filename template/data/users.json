@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "username": "kelvintryanto",
+    "email": "kelvin.tryanto@gmail.com",
+    "password": "12345",
+    "role": "admin",
+    "phoneNumber": "08990937575",
+    "address": "Tangerang Selatan"
+  },
+  {
+    "id": 2,
+    "username": "staff",
+    "email": "staff@gmail.com",
+    "password": "12345",
+    "role": "staff",
+    "phoneNumber": "08123456789",
+    "address": "Tangerang Selatan"
+  }
+]

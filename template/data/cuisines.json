@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Nasi Goreng",
+    "description": "Nasi goreng khas Indonesia dengan bumbu tradisional",
+    "price": 30000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/nasi-goreng_GXwR5VJnt.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "id": 2,
+    "name": "Sate Ayam",
+    "description": "Sate ayam dengan saus kacang",
+    "price": 25000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/sate-ayam_GFJQuun2Y.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "id": 3,
+    "name": "Rendang",
+    "description": "Daging sapi dengan bumbu rendang khas Padang",
+    "price": 40000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/rendang_6AKD9P90h.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "id": 4,
+    "name": "Pizza Margherita",
+    "description": "Pizza Italia dengan tomat, keju, dan basil",
+    "price": 85000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/pizza-margherita_byH_GGrRp.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "id": 5,
+    "name": "Burger",
+    "description": "Burger klasik dengan patty daging sapi dan keju",
+    "price": 70000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/burger_Qb-dMbIzU.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "id": 6,
+    "name": "Steak",
+    "description": "Steak daging sapi dengan saus pilihan",
+    "price": 120000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/steak_xQHJyaW0o.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "id": 7,
+    "name": "Sushi",
+    "description": "Aneka sushi dengan isian ikan segar",
+    "price": 100000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/sushi_P-A7AFjyg.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "id": 8,
+    "name": "Ramen",
+    "description": "Ramen dengan kaldu gurih dan topping daging",
+    "price": 60000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/ramen_QBGNflJQa.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "id": 9,
+    "name": "Pad Thai",
+    "description": "Mi goreng khas Thailand dengan kacang dan udang",
+    "price": 50000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/pad-thai_VR1ZQ4Sii.jpg?updatedAt=1731576608126",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "id": 10,
+    "name": "Cheesecake",
+    "description": "Kue keju lembut dengan topping stroberi",
+    "price": 45000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/cheesecake_2gvefaaLj.jpg",
+    "categoryId": 4,
+    "authorId": 1
+  },
+  {
+    "id": 11,
+    "name": "Brownie",
+    "description": "Brownie cokelat lezat dengan kacang",
+    "price": 30000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/brownie_ZU9HJJjdL.jpeg",
+    "categoryId": 4,
+    "authorId": 1
+  },
+  {
+    "id": 12,
+    "name": "Ice Cream Sundae",
+    "description": "Es krim dengan topping buah dan cokelat",
+    "price": 35000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/ice-cream-sundae_LBYmg-4qn.jpg",
+    "categoryId": 4,
+    "authorId": 1
+  },
+  {
+    "id": 13,
+    "name": "Gado-Gado",
+    "description": "Salad sayuran khas Indonesia dengan saus kacang",
+    "price": 20000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/gado-gado_jXi38Kvzn.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "id": 14,
+    "name": "Lasagna",
+    "description": "Pasta berlapis daging, keju, dan saus tomat",
+    "price": 90000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/lasagna_k3rzFbSAw.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "id": 15,
+    "name": "Pho",
+    "description": "Sup mi khas Vietnam dengan kaldu sapi",
+    "price": 55000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/pho_pza5RSuus.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "id": 16,
+    "name": "Pavlova",
+    "description": "Dessert berbasis meringue dengan buah segar",
+    "price": 60000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/pavlova_tSFOhpw3B.jpg",
+    "categoryId": 4,
+    "authorId": 1
+  },
+  {
+    "id": 17,
+    "name": "Bakso",
+    "description": "Bakso sapi dengan kuah kaldu gurih",
+    "price": 15000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/bakso_jfZS_YClq.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "id": 18,
+    "name": "French Fries",
+    "description": "Kentang goreng renyah",
+    "price": 25000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/french-fries_gKNDlOJOL.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "id": 19,
+    "name": "Bibimbap",
+    "description": "Nasi campur khas Korea dengan sayuran dan daging",
+    "price": 60000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/bibimbap_cRhftZ4Ta.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "id": 20,
+    "name": "Gelato",
+    "description": "Es krim khas Italia yang creamy",
+    "price": 40000,
+    "imgUrl": "https://ik.imagekit.io/kelvintryanto/gelato_QnFjzf7Sr.jpg",
+    "categoryId": 4,
+    "authorId": 1
+  }
+]
