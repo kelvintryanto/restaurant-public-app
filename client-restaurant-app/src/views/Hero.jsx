@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="flex transition-transform duration-700 ease-in-out h-full w-full" id="carousel">
           {/* Slide 1 */}
-          <div className="h-full w-full flex-none bg-cover bg-center relative opacity-95" style={{ backgroundImage: 'url("./../src/components/assets/image/Forest_Fog_1600x.webp")' }}>
+          <div className="h-full w-full flex-none bg-cover bg-center relative opacity-95" style={{ backgroundImage: 'url("/assets/image/Forest_Fog_1600x.webp")' }}>
             {/* Brown Overlay */}
             <div className="absolute inset-0 bg-black opacity-60" />
           </div>
@@ -35,20 +35,20 @@ export default function Hero() {
           <div
             className="h-full w-full flex-none bg-cover bg-center relative opacity-95"
             style={{
-              backgroundImage: 'url("./../src/components/assets/image/chef.jpg")',
+              backgroundImage: 'url("/assets/image/chef.jpg")',
             }}>
             {/* Brown Overlay */}
             <div className="absolute inset-0 bg-black opacity-60" />
           </div>
           {/* Slide 2 */}
-          <div className="h-full w-full flex-none bg-cover bg-center relative opacity-95" style={{ backgroundImage: 'url("./../src/components/assets/image/people.jpeg")' }}>
+          <div className="h-full w-full flex-none bg-cover bg-center relative opacity-95" style={{ backgroundImage: 'url("/assets/image/people.jpeg")' }}>
             <div className="absolute inset-0 bg-black opacity-60" />
           </div>
           {/* Slide 3 */}
           <div
             className="h-full w-full flex-none bg-cover bg-center relative opacity-95"
             style={{
-              backgroundImage: 'url("./../src/components/assets/image/peoples.jpg")',
+              backgroundImage: 'url("/assets/image/peoples.jpg")',
             }}>
             <div className="absolute inset-0 bg-black bg-opacity-60" />
           </div>
@@ -62,7 +62,7 @@ export default function Hero() {
           <nav className="top-0 left-0 w-full p-3 flex justify-between items-start bg-transparent">
             <div className="flex gap-3 items-center">
               <a href="#">
-                <img src="./../src/components/assets/image/logo.png" width='100px"' height="100px" alt="Logo" />
+                <img src="/assets/image/logo.png" width='100px"' height="100px" alt="Logo" />
               </a>
               <div className="flex flex-col gap-2">
                 <a href="#" className="text-white self-center text-4xl">
