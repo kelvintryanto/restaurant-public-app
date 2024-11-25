@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Toastify from "toastify-js";
+import Button from "../components/Button";
 
 export default function Register({ base_url }) {
   const [loading, setLoading] = useState(false);
@@ -82,7 +83,7 @@ export default function Register({ base_url }) {
             <input type="text" placeholder="Phone Number" className="input input-bordered input-success" onChange={(e) => setPhoneNumber(e.target.value)} />
             <input type="text" placeholder="Address" className="input input-bordered input-success" onChange={(e) => setAddress(e.target.value)} />
 
-            <button className="btn rounded-md py-2 px-2 text-slate-600 glass btn-success bg-success mt-8">Register user</button>
+            <Button name={"Register user"} />
           </div>
         </form>
       )}

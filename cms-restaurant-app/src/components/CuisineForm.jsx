@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Button from "./Button";
 
 export default function CuisineForm({ base_url, handleSubmit, nameProp, handleLoading, cuisine }) {
   const [name, setName] = useState("");
@@ -89,7 +90,8 @@ export default function CuisineForm({ base_url, handleSubmit, nameProp, handleLo
                   </>
                 )}
               </select>
-              <button className="btn rounded-md py-2 px-2 text-slate-600 glass btn-success bg-success mt-8">{nameProp}</button>
+              {/* <button className="btn rounded-md py-2 px-2 text-slate-600 glass btn-success bg-success mt-8">{nameProp}</button> */}
+              <Button name={nameProp} />
             </div>
           </form>
         </>
