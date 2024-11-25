@@ -55,7 +55,7 @@ export const router = createBrowserRouter([
             borderRadius: "8px",
           },
         }).showToast();
-        return redirect("/");
+        return redirect("/login");
       }
 
       return null;
