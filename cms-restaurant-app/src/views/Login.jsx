@@ -52,10 +52,10 @@ export default function Login({ base_url }) {
 
   return (
     <>
-      <div className="flex justify-center items-center h-screen bg-cover p-10" style={{ backgroundImage: 'url("./../src/components/assets/images/Forest_Fog_1600x.webp")' }}>
+      <div className="flex justify-center items-center h-screen bg-cover p-10" style={{ backgroundImage: 'url("/assets/images/Forest_Fog_1600x.webp")' }}>
         <div className="flex mx-auto w-screen justify-center space-x-40">
           <div id="logo" className="flex-col flex">
-            <img src="./../src/components/assets/images/logo.png" className="" alt="East Mountain Avenue Logo" />
+            <img src="/assets/images/logo.png" className="" alt="East Mountain Avenue Logo" />
             <i className="bg-gradient-to-r from-amber-700 to-amber-400 text-xl text-white py-2 px-3 rounded-md mt-5">Miraculous Cuisines in the Beauty of Mountain Forest</i>
           </div>
           <div className="flex flex-col bg-green-800 bg-opacity-40 p-5 border rounded-md w-1/4 self-center">
